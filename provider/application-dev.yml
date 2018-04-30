@@ -17,11 +17,6 @@ name: provider
 profiles:
 active: production
 logging:
-level:
-root: info
-org.hibername: info
-org.hibernate.type.descriptor.sql.BasicBinder: TRACE
-org.hibernate.type.descriptor.sql.BasicExtractor: TRACE
-com.yasaka.stock : debug
+level: info
 server:
 port: 8100
