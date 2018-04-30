@@ -1,0 +1,27 @@
+spring:
+redis:
+host: localhost
+port: 6379
+jpa:
+database-platform: org.hibernate.dialect.MySQLDialect
+show-sql: true
+hibernate:
+ddl-auto: update
+datasource:
+druid:
+url: jdbc:mysql://localhost:3306/spcloud
+username: root
+password: root
+application:
+name: provider
+profiles:
+active: production
+logging:
+level:
+root: info
+org.hibername: info
+org.hibernate.type.descriptor.sql.BasicBinder: TRACE
+org.hibernate.type.descriptor.sql.BasicExtractor: TRACE
+com.yasaka.stock : debug
+server:
+port: 8100
