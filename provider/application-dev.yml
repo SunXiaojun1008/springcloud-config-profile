@@ -16,7 +16,5 @@ application:
 name: provider
 profiles:
 active: production
-logging:
-level: info
 server:
 port: 8100
